@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    background-color: rgb(72, 57, 146);
+
+}
+
+
+
+.navbar{
+background-color: rgb(116, 109, 160);;
+position: sticky;
+}
+
+
+.gozie{
+    position: relative;
+    left: 600px;
+}
+
+.king a:hover{
+    background-color: rgb(17, 101, 129);
+    color: rgb(181, 61, 61);
+    margin-left: 3rem;
+    transition: all 300ms ease;
+}
+.about a:hover{
+    background-color: rgb(234, 234, 24);
+    color: rgb(21, 44, 250);
+    margin-left: 3rem;
+    transition: all 300ms ease;
+}
+
+.home a:hover{
+    background-color: aqua;
+    color: yellow;
+    margin-left: 3rem;
+    transition: all 300ms ease;
+}
+
+.help a:hover{
+    color: red;
+    margin-left: 3rem;
+    transition: all 300ms ease;
+}
+
+
+@keyframes welcome{
+0%{
+    opacity: 6;
+}
+100%{
+    opacity: 0;
+}
+}
+
+
+.gozie{
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+    /*background-color: rgb(119, 174, 38);*/
+    .container {
+
+    text-align: center;
+}
+
+
+
+
+
+
+/*bootstraps grid*/
+.row > div {
+    border: 3px solid rgb(16, 84, 192);
+    margin: 10px;
+    background-color: rgb(116, 109, 160);
+    }
+
+
+
+      /*social media link*/
+    .montana{
+        text-decoration: none;
+    }
+
+    /*footer*/
+    .footer{
+        background-color: rgb(43, 13, 114);
+        color: white;
+    }
